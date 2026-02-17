@@ -5,7 +5,7 @@ set BUILD_DIR=build
 
 mkdir %BUILD_DIR%
 
-cmake -S osmium-tool ^
+cmake -S . ^
  -B %BUILD_DIR% ^
  -G "Ninja" ^
  -D CMAKE_BUILD_TYPE=Release ^
